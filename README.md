@@ -1,403 +1,120 @@
-# 🚀 Shan Portfolio
+# 🚀 Manohar N M - Full Stack Developer Portfolio
 
 <div align="center">
 
-### Modern • Fast • Responsive • Creative
+### Modern • High-Performance • Interactive • Premium UI
 
-A premium personal portfolio built with modern frontend technologies, smooth animations, and a clean UI to showcase projects, skills, and experience.
+A high-end personal portfolio built to showcase full-stack development, AI/ML, and ServiceNow automation capabilities.
 
 <p>
-  <a href="https://shan-portfolioo.netlify.app">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-00C853?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/shajith23/shan-portfolio">
+  <a href="https://github.com/Manohar-NM/ManoharNM_Portfolio">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
   </a>
-  <img src="https://img.shields.io/github/stars/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/shajith23/shan-portfolio?style=for-the-badge" />
 </p>
 
 </div>
 
 ---
 
-## ✨ Preview
+## ✨ Features & Interactive Sandboxes
 
-> A modern portfolio crafted to leave a strong first impression with smooth animations, responsive layouts, elegant typography, and a premium user experience.
+This portfolio is packed with interactive modules and high-end animations designed to showcase practical systems development:
 
-### 🔗 Live Website
+### 1. 2-Column Responsive Project Grid
+* Replaced traditional static lists with a balanced 2-column flex-grid layout that reflows dynamically when tags are selected.
+* Features a sleek **Segmented Capsule Filter Bar** (pill control) with neon active status indicators.
 
-**https://shan-portfolioo.netlify.app**
+### 2. TargetX: Bioinformatics PAM Site Scanner
+* An interactive sandbox integrated into the TargetX project card.
+* Scans genomic sequences for Protospacer Adjacent Motifs (PAM) matching `5'-NGG-3'`.
+* Generates list cards of ranked gRNA suggestions and highlights DNA mutations.
 
-### 💻 GitHub Repository
+### 3. Vatsalya: SOS Emergency Telemetry Simulator
+* A visual smartphone frame simulation featuring a pulsing **SOS** trigger button, heart-rate trigger checkbox, 3-second countdown sequencer, and mock GPS location logs console.
 
-**https://github.com/shajith23/shan-portfolio**
+### 4. ServiceNow: Internship Flowchart Visualizer
+* An interactive multi-stage flowchart embedded in the experience section of Amzeno Innovations.
+* Clicking steps dynamically updates GlideSystem logs and Client Script console displays.
 
----
+### 5. Biometric Scan Profile Pictures
+* Custom hover wrapper on your profile portraits.
+* Triggers a vertical green laser sweep, digital bounding grids, snapshot coordinate brackets (`[ ]`), and transitions your photos from tech duotone to full color.
 
-# 📖 Table of Contents
-
-- Overview
-- Features
-- Tech Stack
-- Folder Structure
-- Installation
-- Run Locally
-- Deployment
-- Customization
-- Performance
-- Browser Support
-- Future Improvements
-- Contributing
-- License
-- Contact
-
----
-
-# 🚀 Overview
-
-Shan Portfolio is a modern personal portfolio website built to showcase projects, skills, achievements, and services.
-
-The website focuses on:
-
-- Premium UI/UX
-- Fast performance
-- Responsive layouts
-- Smooth animations
-- Interactive components
-- SEO-friendly structure
-- Clean and maintainable code
+### 6. Additional Upgrades
+* **IEEE Publication Drawer:** Accordion drawer to expand/collapse review paper abstracts.
+* **Clipboard Copy Email:** Copy icon to save your email to the clipboard with real-time toast feedback.
+* **Contact Form Hijack:** AJAX intercepts submissions, handles input validation, animates button spinners, and displays confirmation toasts.
+* **GSAP ScrollSmoother Navigation:** Captures anchors and scrolls smoothly to target coordinates.
 
 ---
 
-# ✨ Features
+## 🛠 Tech Stack
 
-## 🎯 Modern UI
-
-- Premium design
-- Dark aesthetic
-- Mobile-first layout
-- Responsive navigation
-- Interactive sections
-
----
-
-## ⚡ Performance
-
-- Lightweight
-- Optimized assets
-- Fast loading
-- Smooth scrolling
-- Lazy loading ready
+| Category | Technologies |
+| :--- | :--- |
+| **Core Frontend** | HTML5, CSS3, JavaScript (ES6+), Bootstrap 5 |
+| **Animation Engine** | GSAP (ScrollTrigger, ScrollSmoother, SplitText), AOS (Animate on Scroll) |
+| **Libraries & Plugins** | jQuery, PureCounter, Swiper.js, Magnific Popup |
+| **Development Server** | Python HTTP Server, Node.js (Vercel/Serve) |
 
 ---
 
-## 🎨 Animations
-
-- GSAP animations
-- Scroll animations
-- Hover effects
-- Counter animations
-- Smooth transitions
-
----
-
-## 📱 Fully Responsive
-
-Works perfectly on:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
----
-
-## 📂 Sections
-
-- Hero
-- About
-- Skills
-- Experience
-- Services
-- Portfolio
-- Testimonials
-- Contact
-- Footer
-
----
-
-# 🛠 Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| Bootstrap 5 | Responsive Grid |
-| JavaScript | Interactivity |
-| jQuery | Plugins |
-| GSAP | Animations |
-| Swiper.js | Sliders |
-| AOS | Scroll Animations |
-| Magnific Popup | Image & Video Popups |
-| PureCounter | Animated Counters |
-
----
-
-# 📁 Folder Structure
+## 📁 Folder Structure
 
 ```text
-shan-portfolio/
+ManoharNM_Portfolio/
 │
 ├── index.html
 ├── README.md
 │
 ├── assets/
-│
-├── css/
-├── js/
-├── images/
-├── fonts/
-└── icons/
+│   ├── css/          # Custom styling systems (main.css)
+│   ├── js/           # Interactive event handlers (main.js)
+│   ├── images/       # Tech profiles, projects, and hackathon assets
+│   ├── fonts/
+│   └── icons/
 ```
 
 ---
 
-# 🚀 Installation
+## ▶ Run Locally
 
-Clone the repository
+You can launch the site locally using any standard static file server:
 
+### Python 3
 ```bash
-git clone https://github.com/shajith23/shan-portfolio.git
+python3 -m http.server 4173
 ```
+Visit `http://localhost:4173` in your browser.
 
-Open project
-
+### Node.js (Serve)
 ```bash
-cd shan-portfolio
+npx serve . -l 4173
 ```
+Visit `http://localhost:4173` in your browser.
 
 ---
 
-# ▶ Run Locally
-
-### Method 1
-
-Open
-
-```
-index.html
-```
-
----
-
-### Method 2
-
-Using VS Code
-
-Install
-
-```
-Live Server
-```
-
-Right Click
-
-```
-Open with Live Server
-```
-
----
-
-### Method 3
-
-Python
-
-```bash
-python3 -m http.server 8000
-```
-
-Visit
-
-```
-http://localhost:8000
-```
-
----
-
-# 🌐 Deployment
-
-## GitHub Pages
-
-```bash
-git init
-
-git add .
-
-git commit -m "Initial Commit"
-
-git branch -M main
-
-git remote add origin https://github.com/shajith23/shan-portfolio.git
-
-git push -u origin main
-```
-
-Enable
-
-```
-Settings
-
-↓
-
-Pages
-
-↓
-
-Deploy from main branch
-```
-
----
-
-## Netlify
-
-Drag & Drop
-
-OR
-
-Connect GitHub Repository
-
----
-
-## Vercel
-
-Import GitHub Repository
-
-Deploy
-
-Done ✅
-
----
-
-# 🎨 Customization
-
-Update
-
-- Name
-- Logo
-- Images
-- Portfolio Projects
-- Contact Information
-- Resume
-- Social Links
-- Theme Colors
-
-Everything can be customized inside
-
-```
-index.html
-```
-
-and
-
-```
-assets/
-```
-
----
-
-# 📈 Performance Goals
-
-✅ Responsive
-
-✅ SEO Friendly
-
-✅ Accessible
-
-✅ Optimized Assets
-
-✅ Smooth Animation
-
-✅ Cross Browser Compatible
-
----
-
-# 🌍 Browser Support
-
-- Chrome
-- Edge
-- Firefox
-- Safari
-- Brave
-- Opera
-
----
-
-# 🚀 Future Improvements
-
-- Blog Integration
-- CMS Support
-- Dark / Light Toggle
-- Multi-language
-- Analytics Dashboard
-- Contact API
-- Admin Panel
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork Repository
-
-2. Create Feature Branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit
-
-```bash
-git commit -m "Added Feature"
-```
-
-4. Push
-
-```bash
-git push origin feature-name
-```
-
-5. Open Pull Request
-
----
-
-# 📄 License
-
-This project is available for personal and commercial portfolio use.
-
----
-
-# 👨‍💻 Developer
-
-**Shajith (Shan)**
-
-### Portfolio
-
-https://shan-portfolioo.netlify.app
-
-### GitHub
-
-https://github.com/shajith23
+## 🌐 Deployment to Vercel
+
+This repository is structured for zero-config deployments on **Vercel**:
+
+1. Push your changes to GitHub:
+   ```bash
+   git add .
+   git commit -m "feat: customize README for Manohar"
+   git push origin main
+   ```
+2. Log in to [Vercel](https://vercel.com) and click **"Add New..."** -> **"Project"**.
+3. Import this repository (**`ManoharNM_Portfolio`**).
+4. Leave settings at default (Vercel automatically detects the static setup).
+5. Click **"Deploy"**!
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to Star the Repository!
-
-Made with ❤️ by **Shajith**
+### ⭐ Created by Manohar N M
+*Full Stack Developer & Systems Engineer*
 
 </div>
